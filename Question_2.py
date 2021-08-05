@@ -10,5 +10,6 @@ class CheckTest(unittest.TestCase):
         if_equal = BooleanExample('asdawf','asdawf')
         self.assertEqual(if_equal,True)
 
+#不加if语句会报错
 if __name__ == "__main__":
     unittest.main()
